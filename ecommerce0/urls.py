@@ -21,7 +21,7 @@ urlpatterns=[
     path('customer/',include('customer.urls')),
     path('seller/',include('seller.urls')),
     path('ecomadmin/',include('ecomadmin.urls')),
-    path('common/',include('common.urls'))
+    path('',include('common.urls'))
    
     
 ]
