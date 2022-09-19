@@ -10,7 +10,11 @@ def viewcart(request):
 def myorders(request):
     return render(request,'customertemplates/myorders.html')
 def changepassword(request):
-    return render(request,'customertemplates/changepassword.html')    
+    return render(request,'customertemplates/changepassword.html')
+def img(request):
+    return render(request,'customertemplates/img.html')    
+
+    
 
 
     
